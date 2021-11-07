@@ -1,0 +1,17 @@
+$ git reflog
+ae06d30 (HEAD -> main, origin/main, origin/develop, develop) HEAD@{0}: merge develop: Fast-forward
+01ade6c HEAD@{1}: checkout: moving from develop to main
+ae06d30 (HEAD -> main, origin/main, origin/develop, develop) HEAD@{2}: commit (merge): After merge
+4b7432c (origin/images, images) HEAD@{3}: merge images: Fast-forward
+8b0ed20 HEAD@{4}: checkout: moving from styles to develop
+9734b50 (origin/styles, styles) HEAD@{5}: commit: add styles
+2e43f7b HEAD@{6}: commit: styles
+8b0ed20 HEAD@{7}: checkout: moving from develop to styles
+8b0ed20 HEAD@{8}: checkout: moving from images to develop
+4b7432c (origin/images, images) HEAD@{9}: commit: commit image sources
+3b3c788 HEAD@{10}: commit: commit images
+8b0ed20 HEAD@{11}: checkout: moving from develop to images
+8b0ed20 HEAD@{12}: commit: index commit
+01ade6c HEAD@{13}: checkout: moving from main to develop
+01ade6c HEAD@{14}: commit (initial): first commit
+
