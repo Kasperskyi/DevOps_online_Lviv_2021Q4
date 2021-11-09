@@ -29,7 +29,24 @@ A bare-metal hypervisor:
 
 ## 2. Results of work with virtulbox
 
-I set up VirtualBox on my laptop and created vm with installed Ubuntu 2104. I reminded options of VirtualBox: cloning vm, creating shapshots and groups, exporting and importing vm. basic git commands: clone, init, branch, checkout, add, commit, merge, log, reflog, remote and push.
-I created 3 new branches: develop, images and styles and merged them into the main branch with fixing conflict. In the end, I checked logs and pushed all files in Github repository.
+I set up VirtualBox on my laptop and created vm with installed Ubuntu 2104. I reminded options of VirtualBox: cloning vm, creating shapshots and groups, exporting and importing vm. More dificult then in VMware Workststion was adding shared folder. New expiriense was working with vm trought command line.
 
 See the some screenshots attached.
+
+![Screenshot_10](https://user-images.githubusercontent.com/42848618/140989310-4c649920-03fd-47d0-8cfe-b9ddaf0ac2e9.jpg)
+
+![Screenshot_11](https://user-images.githubusercontent.com/42848618/140989326-619a2fbd-e961-4908-9f71-1cfe1a735d74.jpg)
+
+## 3. Results of work with Vagrant
+
+I worked with Vargrant first time. That is good tools for setup and configute multiple vms. I used all commands propose in task for creating vms.
+
+See the some screenshots attached.
+
+![Screenshot_12](https://user-images.githubusercontent.com/42848618/140989993-814b4c20-fb9f-4487-a3e2-8211ac2c39ac.jpg)
+
+![Screenshot_13](https://user-images.githubusercontent.com/42848618/140990027-2061e369-5dae-48ae-9d74-6663091ff8c9.jpg)
+
+![Screenshot_14](https://user-images.githubusercontent.com/42848618/140990031-6fe843f8-edbb-4f36-be08-1c588036cb0c.jpg)
+
+![Screenshot_15](https://user-images.githubusercontent.com/42848618/140990034-f579c128-9b26-4c4b-abbe-c9af0b3d4afa.jpg)
