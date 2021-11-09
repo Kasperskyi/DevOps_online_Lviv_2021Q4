@@ -29,7 +29,7 @@ A bare-metal hypervisor:
 
 ## 2. Results of work with virtulbox
 
-I set up VirtualBox on my laptop and created vm with installed Ubuntu 2104. I reminded options of VirtualBox: cloning vm, creating shapshots and groups, exporting and importing vm. More dificult then in VMware Workststion was adding shared folder. New expiriense was working with vm trought command line.
+I set up VirtualBox on my laptop and created vm with installed Ubuntu 2104. I reminded posibilities of VirtualBox: cloning vm, creating shapshots and groups, exporting and importing vm. More dificult then in VMware Workstation was adding shared folder. New experiense for me was working with vm trought command line.
 
 See the some screenshots attached.
 
@@ -39,7 +39,7 @@ See the some screenshots attached.
 
 ## 3. Results of work with Vagrant
 
-I worked with Vargrant first time. That is good tools for setup and configute multiple vms. I used all commands propose in task for creating vms.
+I worked with Vagrant first time. That is good tool for setup and configure multiple vms. I used all commands proposed in task for creating vms.
 
 See the some screenshots attached.
 
