@@ -1,7 +1,7 @@
 # Task 2.2
 
 
-## 1. Results of task 
+## Results of task 
 
 I registered an AWS Free Ter account and launched ec2 instances in my own account and in the Amazon Lightsail. I created snapshots for the instances and the new EBS disk. 
 I created my repository in the S3 and uploaded files to it.
