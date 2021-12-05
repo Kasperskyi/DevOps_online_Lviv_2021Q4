@@ -41,4 +41,20 @@ I explored the more and less commands using the help system.
 
 6. A soft link is an actual link to the original file, whereas a hard link is a mirror copy of the original file. If you delete the original file, the soft link has no value, because it points to a non-existent file.
 ![image](https://user-images.githubusercontent.com/42848618/144744265-214f136d-d201-4ee4-a76c-105491d4ddac.png)
-When I used command touch to soft link 
+When I used command touch to soft link I updated time of original file and also hard link as a mirror of original file.
+I deleted labwork2. In result soft link is inactive and hard link saved all information of original file.
+7. I installed locate to my Ubuntu and updated db.
+![image](https://user-images.githubusercontent.com/42848618/144766445-9e56b581-9856-4d97-938c-523d18394f2c.png)
+
+8. I used command df to show mounted partitions.
+![image](https://user-images.githubusercontent.com/42848618/144766496-25203d35-a129-49d6-907e-62c47c428677.png)
+
+9. ![image](https://user-images.githubusercontent.com/42848618/144766673-705f9627-9458-438d-9b5c-2d076b6e1837.png)
+
+10. ![image](https://user-images.githubusercontent.com/42848618/144766950-09e36e7e-9f8f-4d21-bc91-c823dc28385b.png)
+
+11. ![image](https://user-images.githubusercontent.com/42848618/144766998-8166e88d-4628-4008-9dba-4bbdaccfc453.png)
+
+12. ![image](https://user-images.githubusercontent.com/42848618/144767335-9e1a8019-cae8-492c-82a6-6acab1fa6503.png)
+
+13. 
