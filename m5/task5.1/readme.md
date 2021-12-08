@@ -57,4 +57,50 @@ I deleted labwork2. In result soft link is inactive and hard link saved all info
 
 12. ![image](https://user-images.githubusercontent.com/42848618/144767335-9e1a8019-cae8-492c-82a6-6acab1fa6503.png)
 
-13. 
+13. Command ls -l show type of the device files, which are denoted as the following:
+c - character
+b - block
+p - pipe
+s - socket
+
+**Block Device**
+These devices transfer data, but in large fixed-sized blocks. You'll most commonly see devices that utilize data blocks as block devices, such as harddrives, filesystems, etc.
+
+**Pipe Device**
+Named pipes allow two or more processes to communicate with each other, these are similar to character devices, but instead of having output sent to a device, it's sent to another process.
+
+**Socket Device**
+Socket devices facilitate communication between processes, similar to pipe devices but they can communicate with many processes at once.
+![image](https://user-images.githubusercontent.com/42848618/145189060-3ca211e2-5689-4a13-9c06-683f1608eb60.png)
+
+14 
+| symbol | name | description |
+| --- | ------------------ | --------------------- |
+| "-" | Ordinary or regular files | Contain data of various content types such as text, script, image, videos, etc. |
+| "d" | Directory files	| Contain the name and address of other files. |
+| "b" | Block or character special files | Represent device files such as hard drives, monitors, etc. |
+| "l" | Link files | Point or mirror other files |
+| "s" | Socket files | Provide inter-process communication |
+| "p" | Named pipe files | Allow processes to send data to other processes or receive data from other processes. | 
+
+Follow commands show type of files:
+
+ls -l | grep ^- 
+
+ls -l | grep ^d
+
+ls -l | grep ^b
+
+ls -l | grep ^l
+
+ls -l | grep ^s
+
+ls -l | grep ^p
+
+or 
+
+file /dev/sdb1 
+
+15. Command "ls -1lr | tail -5" show 5 last used directory.
+![image](https://user-images.githubusercontent.com/42848618/145198834-51b34521-aed5-4afa-9180-23e6f2c80181.png)
+
