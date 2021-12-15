@@ -226,3 +226,14 @@ Then in the Windows command line generate ssh key pair and copy the public key t
 
 ![image](https://user-images.githubusercontent.com/42848618/146254845-125a0e8f-9768-4ceb-ba50-7e33e8a7ff36.png)
 
+
+
+**4.**
+
+![image](https://user-images.githubusercontent.com/42848618/146265194-5ed3147a-341f-4124-a518-f3bfa0e50979.png)
+
+
+
+**5.**
+
+![image](https://user-images.githubusercontent.com/42848618/146268747-fcd7998e-9d95-457e-9173-49b0b61547f2.png)
