@@ -99,19 +99,25 @@ s    is a session leader
 -b  :Batch-mode operation
     Starts top in Batch mode, which could be useful for sending output from top to other programs or to a file.  In this mode, top will not accept input and runs until the iterations limit you've set with the `-n' command-line option or until killed.
 -E  :Enforce-Summary-Memory-Scaling as:  -E  k | m | g | t | p | e
+
     Instructs top to force summary area memory to be scaled as:
+    
     k - kibibytes
     m - mebibytes
     g - gibibytes
     t - tebibytes
     p - pebibytes
     e - exbibytes
+    
 -n  :Number-of-iterations limit as:  -n number
     Specifies the maximum number of iterations, or frames, top should produce before ending.
+    
 -s  :Secure-mode operation
     Starts top with secure mode forced, even for root.  This mode is far better controlled through a system configuration file (see topic 6. FILES).
+    
 -u | -U  :User-filter-mode as:  -u | -U number or name
     Display only processes with a user id or user name matching that given.  The `-u' option matches on  effective user whereas the `-U' option matches on any user (real, effective, saved, or filesystem).
+    
     Prepending an exclamation point (`!') to the user id or name instructs top to display only processes with users not matching the one provided.
   
 
@@ -171,5 +177,52 @@ Command: kill -9 PID
 
 
 
-**17.**  
+**17.**  Follow commands controling processes:
+jobs - list proceses
+fg - bring process into foregroud
+bg - put suspended process into background
+nohup - let to save started process after closing terminal session.
+
+![image](https://user-images.githubusercontent.com/42848618/146243562-fcf252bc-2a2c-4e1f-a25c-026fee64a981.png)
+
+
+
+
+## Results of Part 2
+
+
+**1.** Firstly you need to check installed ssh on your Linux vm.
+Then in the Windows command line generate ssh key pair and copy the public key to vm. Finally for connecting used ssh user@namehost(or ip).
+
+![image](https://user-images.githubusercontent.com/42848618/146249481-3fdcb53b-2460-49be-aa9a-e4f6a739dc19.png)
+
+
+
+**2.** 
+1. Change the Default SSH Port
+2. Enhance Linux SSH Security Using Key Pairs
+3. Disable Server SSH Root Login
+4. Disable Password-Based Logins on Your Server
+5. Restrict SSH Access Using iptables
+
+
+![image](https://user-images.githubusercontent.com/42848618/146252389-91884678-ee43-47e3-91d6-4b152c84eb9d.png)
+
+![image](https://user-images.githubusercontent.com/42848618/146252563-32235ee1-2bae-486b-8747-a7eba3953db8.png)
+
+![image](https://user-images.githubusercontent.com/42848618/146253078-c164505e-667d-44c0-9135-ae50a3b529a3.png)
+
+**3.** sshkeygen has following type of key:
+- rsa
+- dsa
+- ecdsa
+- ecdsa-sk
+- ed25519
+- ed25519-sk
+
+![image](https://user-images.githubusercontent.com/42848618/146254527-c59054d8-331e-4800-9a22-01e871982aea.png)
+
+![image](https://user-images.githubusercontent.com/42848618/146254567-27a15d71-a134-402b-91f8-05e936b69f42.png)
+
+![image](https://user-images.githubusercontent.com/42848618/146254845-125a0e8f-9768-4ceb-ba50-7e33e8a7ff36.png)
 
