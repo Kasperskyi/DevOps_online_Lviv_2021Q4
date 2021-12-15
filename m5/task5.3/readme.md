@@ -5,15 +5,15 @@
 
 **1.**  Here are the different values that the s, stat and state output specifiers (header "STAT" or "S") will display to describe the state of a process.
 
-       D    Uninterruptible sleep (usually IO)
-       I    Idle kernel thread
-       R    Running or runnable (on run queue)
-       S    Interruptible sleep (waiting for an event to complete)
-       T    Stopped, either by a job control signal or because it is being traced.
-       t    Stopped by debugger during the tracing.
-       W    paging (not valid since the 2.6.xx kernel)
-       X    dead (should never be seen)
-       Z    Defunct ("zombie") process, terminated but not reaped by its
+      D    Uninterruptible sleep (usually IO)
+      I    Idle kernel thread
+      R    Running or runnable (on run queue)
+      S    Interruptible sleep (waiting for an event to complete)
+      T    Stopped, either by a job control signal or because it is being traced.
+      t    Stopped by debugger during the tracing.
+      W    paging (not valid since the 2.6.xx kernel)
+      X    dead (should never be seen)
+      Z    Defunct ("zombie") process, terminated but not reaped by its
             parent.
             
 For BSD formats and when the stat keyword is used, additional characters may be displayed:
@@ -65,8 +65,11 @@ Users processes:
 ![image](https://user-images.githubusercontent.com/42848618/145886700-f4369784-741b-4037-a7dc-85af3bb7fdc8.png)
 
 I    Idle kernel thread
+
 S    Interruptible sleep (waiting for an event to complete)
+
 <    high-priority (not nice to other users)
+
 s    is a session leader
 
 
@@ -100,7 +103,7 @@ s    is a session leader
     Starts top in Batch mode, which could be useful for sending output from top to other programs or to a file.  In this mode, top will not accept input and runs until the iterations limit you've set with the `-n' command-line option or until killed.
 -E  :Enforce-Summary-Memory-Scaling as:  -E  k | m | g | t | p | e
 
-    Instructs top to force summary area memory to be scaled as:
+Instructs top to force summary area memory to be scaled as:
     
     k - kibibytes
     m - mebibytes
@@ -116,9 +119,9 @@ s    is a session leader
     Starts top with secure mode forced, even for root.  This mode is far better controlled through a system configuration file (see topic 6. FILES).
     
 -u | -U  :User-filter-mode as:  -u | -U number or name
-    Display only processes with a user id or user name matching that given.  The `-u' option matches on  effective user whereas the `-U' option matches on any user (real, effective, saved, or filesystem).
+    Display only processes with a user id or user name matching that given.  The -u' option matches on  effective user whereas the -U' option matches on any user (real, effective, saved, or filesystem).
     
-    Prepending an exclamation point (`!') to the user id or name instructs top to display only processes with users not matching the one provided.
+Prepending an exclamation point (!) to the user id or name instructs top to display only processes with users not matching the one provided.
   
 
 
@@ -234,6 +237,8 @@ Then in the Windows command line generate ssh key pair and copy the public key t
 
 
 
-**5.**
+**5.** Captures from tcpdump show that ssh packets are encrypted while telnet doesn't use encryption.
 
 ![image](https://user-images.githubusercontent.com/42848618/146268747-fcd7998e-9d95-457e-9173-49b0b61547f2.png)
+
+![image](https://user-images.githubusercontent.com/42848618/146274154-8e439790-29a5-4960-8d85-88fcce9c3c84.png)
